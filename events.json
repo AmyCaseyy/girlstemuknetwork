@@ -1,0 +1,19 @@
+[
+  {
+    "status": "Currently open",
+    "date": "Sunday 12 July 2026",
+    "type": "Competition",
+    "title": "A-Level Maths Competition",
+    "image": "assets/events/mathscomp.jpeg",
+    "collaboration": "In collaboration with Pathway X and Gradify",
+    "entry": "£3 entry per participant",
+    "description": "Test your skills and challenge the best in our A-Level Maths Competition.",
+    "prizes": [
+      "1st place: £75 in cash prizes",
+      "2nd place: £20 in cash prizes",
+      "3rd place: mystery prize",
+      "Everyone else wins free Gradify Premium and a certificate of participation"
+    ],
+    "link": "https://gradify.org.uk"
+  }
+]
