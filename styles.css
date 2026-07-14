@@ -607,91 +607,33 @@ h3 {
   padding-top: 0;
 }
 
-.community-grid {
+.community-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: 14px;
+  margin-top: 24px;
 }
 
-.community-card {
-  overflow: hidden;
+.community-row {
+  display: grid;
+  grid-template-columns: 116px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding: 18px;
   border: 1px solid var(--line);
   background: var(--white);
-  box-shadow: 0 14px 42px rgba(53, 30, 42, 0.08);
 }
 
-.community-card-top {
-  min-height: 220px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 28px;
-  background: linear-gradient(145deg, var(--pink), var(--pink-deep));
-}
-
-.community-card-top img {
-  width: 104px;
-  height: 104px;
+.community-row img {
+  width: 116px;
+  height: 116px;
   object-fit: contain;
   padding: 12px;
-  border-radius: 8px;
-  background: var(--white);
+  border: 1px solid rgba(199, 71, 131, 0.18);
+  background: var(--cream);
 }
 
-.community-card-top span {
-  display: inline-grid;
-  place-items: center;
-  min-width: 76px;
-  min-height: 48px;
-  padding: 10px 16px;
-  color: var(--pink-deep);
-  font-weight: 900;
-  border-radius: 12px;
-  background: var(--white);
-}
-
-.community-card-body {
-  display: grid;
-  gap: 18px;
-  padding: 28px;
-}
-
-.community-card-body h2 {
-  margin-bottom: 0;
-  font-size: clamp(2rem, 3vw, 3.2rem);
-}
-
-.benefit-list {
-  display: grid;
-  gap: 13px;
-  padding: 18px 0 0;
-  margin: 0;
-  list-style: none;
-  border-top: 1px solid var(--line);
-}
-
-.benefit-list li {
-  position: relative;
-  padding-left: 30px;
-  color: var(--muted);
-  font-weight: 700;
-}
-
-.benefit-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.35em;
-  width: 15px;
-  height: 15px;
-  border: 2px solid var(--pink-deep);
-  border-radius: 50%;
-  background: var(--blush);
-}
-
-.feature-community {
-  background: var(--blush);
+.community-row p {
+  margin-bottom: 14px;
 }
 
 .team-card {
@@ -783,8 +725,7 @@ footer p {
 
   .feature-grid,
   .people-grid,
-  .stats-band,
-  .community-grid {
+  .stats-band {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -849,10 +790,19 @@ footer p {
   .feature-grid,
   .people-grid,
   .stats-band,
-  .community-grid,
   .team-grid,
   .join-options {
     grid-template-columns: 1fr;
+  }
+
+  .community-row {
+    grid-template-columns: 1fr;
+  }
+
+  .community-row img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
 
   .activity-card {
