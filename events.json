@@ -1,7 +1,7 @@
 [
   {
-    "status": "Currently open",
     "date": "Sunday 12 July 2026",
+    "closeDate": "2026-07-12",
     "type": "Competition",
     "title": "A-Level Maths Competition",
     "image": "assets/events/mathscomp.jpeg",
