@@ -223,23 +223,22 @@ h3 {
 
 .stats-band {
   display: grid;
-  grid-template-columns: repeat(4, minmax(170px, 1fr));
-  gap: 12px;
-  width: min(calc(100% - 36px), 1180px);
-  margin: clamp(34px, 5vw, 58px) auto;
-  padding: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  width: 100%;
+  margin: 0;
+  padding: clamp(22px, 4vw, 42px) clamp(18px, 5vw, 72px);
   color: var(--white);
-  border: 1px solid rgba(255, 255, 255, 0.08);
   background: var(--ink);
-  box-shadow: var(--shadow);
 }
 
 .stat-item {
   display: grid;
   gap: 10px;
-  min-height: 128px;
+  min-height: 142px;
   align-content: center;
-  padding: clamp(16px, 2vw, 24px);
+  min-width: 0;
+  padding: clamp(16px, 2.4vw, 32px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   background:
     linear-gradient(145deg, rgba(244, 143, 189, 0.16), rgba(255, 255, 255, 0.02)),
@@ -247,8 +246,14 @@ h3 {
 }
 
 .stat-item strong {
-  font-size: clamp(1.85rem, 3vw, 3.8rem);
+  font-size: clamp(2.2rem, 5vw, 5rem);
   line-height: 0.9;
+  overflow-wrap: anywhere;
+}
+
+.stat-item .stat-word {
+  font-size: clamp(2rem, 4.2vw, 4.2rem);
+  line-height: 1;
 }
 
 .stat-item span {
