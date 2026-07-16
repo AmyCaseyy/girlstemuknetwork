@@ -222,40 +222,43 @@ h3 {
 }
 
 .stats-band {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(180px, 1fr));
-  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
   width: 100%;
   margin: 0;
-  padding: clamp(22px, 4vw, 38px) clamp(18px, 5vw, 72px);
+  padding: clamp(18px, 3vw, 30px) clamp(18px, 5vw, 72px);
   color: var(--white);
   background: var(--ink);
 }
 
 .stat-item {
   display: grid;
-  gap: 8px;
-  min-height: 108px;
+  flex: 1 1 220px;
+  gap: 6px;
+  min-height: 0;
   align-content: center;
   min-width: 0;
-  padding: clamp(16px, 2vw, 24px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background:
-    linear-gradient(145deg, rgba(244, 143, 189, 0.16), rgba(255, 255, 255, 0.02)),
-    #111;
+  padding: 12px clamp(16px, 2vw, 28px);
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.stat-item:first-child {
+  border-left: 0;
 }
 
 .stat-item strong {
-  font-size: clamp(2rem, 3.8vw, 3.8rem);
+  font-size: clamp(1.65rem, 2.8vw, 2.8rem);
   line-height: 1;
   letter-spacing: 0;
   overflow-wrap: normal;
 }
 
 .stat-item .stat-word {
-  font-size: clamp(1.35rem, 2vw, 2.35rem);
+  font-size: clamp(1.12rem, 1.45vw, 1.6rem);
   line-height: 1;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .stat-item span {
@@ -264,6 +267,13 @@ h3 {
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.panel h2 {
+  font-size: clamp(1.65rem, 2.6vw, 3rem);
+  line-height: 1.08;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .section {
