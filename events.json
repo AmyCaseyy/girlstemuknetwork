@@ -15,5 +15,21 @@
       "Everyone else wins free Gradify Premium and a certificate of participation"
     ],
     "link": "https://gradify.org.uk"
+  },
+  {
+    "date": "20 July - 10 August Essay Submissions",
+    "closeDate": "2026-08-20",
+    "type": "Competition",
+    "title": "Essay Competition",
+    "image": "assets/events/essaycomp.jpeg",
+    "collaboration": "exclusive for GirlSTEM members",
+    "entry": "free entry",
+    "description": "Great way to strengthen your UCAS application and develop your research and academic writing skills.",
+    "prizes": [
+      "1st place: Gold certificate",
+      "2nd place: Silver Certificate",
+      "3rd place: Bronze Certificate",
+      "Everyone else wins a certificate of participation"
+    ]
   }
 ]
