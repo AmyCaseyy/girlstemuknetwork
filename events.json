@@ -22,14 +22,25 @@
     "type": "Competition",
     "title": "Essay Competition",
     "image": "assets/events/essaycomp.jpeg",
-    "collaboration": "exclusive for GirlSTEM members",
-    "entry": "free entry",
-    "description": "Great way to strengthen your UCAS application and develop your research and academic writing skills.",
+    "collaboration": "Exclusive for GirlSTEM members",
+    "entry": "Free entry",
+    "description": "A great way to strengthen your UCAS application and develop your research and academic writing skills.",
     "prizes": [
       "1st place: Gold certificate",
-      "2nd place: Silver Certificate",
-      "3rd place: Bronze Certificate",
+      "2nd place: Silver certificate",
+      "3rd place: Bronze certificate",
       "Everyone else wins a certificate of participation"
     ]
+  },
+  {
+    "date": "13 Aug",
+    "closeDate": "2026-10-15",
+    "type": "Writing",
+    "title": "Article Writers",
+    "image": "assets/events/ARDOR.jpeg",
+    "collaboration": "Exclusive for GirlSTEM members",
+    "entry": "Free entry",
+    "description": "A great way to strengthen your UCAS application and develop your research and academic writing skills by collaborating with a fashion magazine and brands.",
+    "link": "https://www.linkedin.com/company/ardormagazine/"
   }
 ]
