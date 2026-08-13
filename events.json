@@ -31,5 +31,16 @@
       "3rd place: Bronze Certificate",
       "Everyone else wins a certificate of participation"
     ]
+  },
+  {
+    "date": "13 Aug",
+    "closeDate": "2026-10-15",
+    "type": "Writing",
+    "title": "Article Writers",
+    "image": "assets/events/ARDOR.jpeg",
+    "collaboration": "Exclusive for GirlSTEM members",
+    "entry": "Free entry",
+    "description": "A great way to strengthen your UCAS application and develop your research and academic writing skills by collaborating with a fashion magazine and brands.",
+    "link": "https://www.linkedin.com/company/ardormagazine/"
   }
 ]
